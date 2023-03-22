@@ -13,5 +13,4 @@ img{
     width: 500px;
     height: 250px;
 }
-
 `
