@@ -26,6 +26,7 @@ export const MenuWrapper = styled.div`
     
 `
 export const OpenMenu = styled.button`
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: flex-start;

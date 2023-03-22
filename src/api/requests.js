@@ -1,6 +1,8 @@
-import axios from "axios";
 import React, { useState, useEffect } from 'react';
+import axios from "axios";
 import md5 from 'js-md5';
+
+import HqItem from '../components/HqItem';
 
 function GetHq(){
     const [hqList, sethqList] = useState([]);
@@ -11,12 +13,11 @@ function GetHq(){
       const timeStamp = new Date().getTime().toString();
       const hash = md5(timeStamp + privateKey + publicKey);
   
-      const apiUrl = `https://gateway.marvel.com/v1/public/comics?ts=${timeStamp}&apikey=${publicKey}&hash=${hash}`;
+      const apiUrl = `https://gateway.marvel.com/v1/public/comics?ts=${timeStamp}&apikey=${publicKey}&hash=${hash}&limit=10&orderBy=title`;
 
     axios.get(apiUrl)
     .then(response => {
       sethqList(response.data.data.results);
-      console.log();
     })
 
     .catch(error => {
@@ -25,13 +26,14 @@ function GetHq(){
     }, []);
     
     return (
-        <div>
-          <div>
+          <>
             {hqList.map(comic => (
-            <li key={comic.id}>{comic.title}</li>
+              <HqItem>
+                <img className='HqImg' src={`${comic.thumbnail.path}.${comic.thumbnail.extension}`} alt={comic.title} />
+                <p className='HqName' key={comic.id}>{comic.title}</p>
+              </HqItem>
           ))}
-          </div>
-        </div>
+          </>
     )
 }
 

@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 
 export const ProductsListWrapper = styled.div`
-    width: 100%;
-    height: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    background-color: white;
+    background-color: #fff;
 `
