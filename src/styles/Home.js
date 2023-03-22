@@ -10,7 +10,8 @@ export const HomeWrapper = styled.div`
     align-content: center;
 
 img{
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     height: 250px;
 }
 `

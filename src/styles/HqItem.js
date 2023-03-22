@@ -5,7 +5,7 @@ export const HqItem = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 5px solid black;
+    border: 5px solid blue;
 
 .HqImg{
     width: 250px;
@@ -15,5 +15,4 @@ export const HqItem = styled.div`
 .HqName{
     color: #000
 }
-
 `

@@ -26,11 +26,13 @@ export const MenuWrapper = styled.div`
     
 `
 export const OpenMenu = styled.button`
-    color: #fff;
+    width: 80px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background: none;
+    background-image: url('');
+    background-position: center;
+    background-repeat: no-repeat;
 `
 
 export const CloseMenu = styled.button`

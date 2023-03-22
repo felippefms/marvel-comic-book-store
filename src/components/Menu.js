@@ -11,7 +11,7 @@ function Menu(){
     
     return(
         <>
-        <OpenMenu onClick={() => setMenuOpen(true)}>Abrir Menu</OpenMenu>
+        <OpenMenu onClick={() => setMenuOpen(true)}></OpenMenu>
         <MenuWrapper isOpen={menuOpen} onClose={handleMenuClose}>
             <nav>
                 <Link to='/'>
