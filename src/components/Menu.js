@@ -1,18 +1,29 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+
 import { MenuWrapper, OpenMenu, CloseMenu } from '../styles/Menu';
+import menubtnimg from '../imgs/icons8-menu-60.png';
+import closebtn from '../imgs/closebtn.png';
+import menubgdimg from '../imgs/menubgdimg.jpg';
 
 function Menu(){
-    const [menuOpen, setMenuOpen] = useState(false);
+    const [menuStatus, setMenuOpen] = useState(false);
 
-    const handleMenuClose = () => {
+    function openMenu(){
+        document.body.style.overflow = "hidden";
+        setMenuOpen(true);
+    };
+
+    const closeMenu = () => {
+        document.body.style.overflow = "auto";
         setMenuOpen(false);
       };
-    
+      
     return(
         <>
-        <OpenMenu onClick={() => setMenuOpen(true)}></OpenMenu>
-        <MenuWrapper isOpen={menuOpen} onClose={handleMenuClose}>
+        <OpenMenu onClick={(openMenu)}><img src={menubtnimg}></img></OpenMenu>
+        <MenuWrapper isOpen={menuStatus} onClose={closeMenu}>
+            <img src={menubgdimg}></img>
             <nav>
                 <Link to='/'>
                     <a>Página Inicial</a>
@@ -27,7 +38,7 @@ function Menu(){
                     <a>Opção 3</a>
                 </Link>
             </nav>
-            <CloseMenu onClick={handleMenuClose}>X</CloseMenu>
+            <CloseMenu onClick={closeMenu}><img src={closebtn}></img></CloseMenu>
         </MenuWrapper>
         </>
     )
