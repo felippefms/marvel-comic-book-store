@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/marvel-comic-book-store/static/js/main.a43addeb.js",
+    "static/media/storelogo.png": "/marvel-comic-book-store/static/media/storelogo.069a0960cef55d87aff1.png",
+    "index.html": "/marvel-comic-book-store/index.html",
+    "main.a43addeb.js.map": "/marvel-comic-book-store/static/js/main.a43addeb.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.a43addeb.js"
+  ]
+}
