@@ -16,7 +16,7 @@ const root = createRoot(container);
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "marvel-comic-book-store/",
     element: <Home />
   },
   {
