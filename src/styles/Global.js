@@ -12,13 +12,13 @@ const GlobalStyle = createGlobalStyle `
         font-family: 'Noto Sans', sans-serif;
     }
 
-    nav{
+    Link{
         @font-face {
             font-family: 'Badaboom-BB';
             src: url(${BadaboomBB}) format('woff'),
                  url(${BadaboomBB2}) format('woff2');
-            font-weight: normal;
-            font-style: normal;
+                font-weight: normal;
+                font-style: normal;
         }
     }
 `

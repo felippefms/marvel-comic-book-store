@@ -24,18 +24,10 @@ function Menu(){
         <OpenMenu onClick={(openMenu)}><img src={menubtnimg}></img></OpenMenu>
         <MenuWrapper isOpen={menuStatus} onClose={closeMenu}>
             <nav>
-                <Link to='/' onClick={closeMenu}>
-                    <a className="menuitem" id="a1">Pagina Inicial</a>
-                </Link>
-                <Link to='/Hqs' onClick={closeMenu}>
-                    <a className="menuitem" id="a2">Quadrinhos</a>
-                </Link>
-                <Link to='/Characters' onClick={closeMenu}>
-                    <a className="menuitem" id="a3">Personagens</a>
-                </Link>
-                <Link to='/About' onClick={closeMenu}>
-                    <a className="menuitem" id="a4">Sobre a loja</a>
-                </Link>
+                <Link to='/' onClick={closeMenu} className="menuitem">Pagina Inicial</Link>
+                <Link to='/Hqs' onClick={closeMenu} className="menuitem" id="a2">Quadrinhos</Link>
+                <Link to='/Personagens' onClick={closeMenu} className="menuitem" id="a3">Personagens</Link>
+                <Link to='/Sobre' onClick={closeMenu} className="menuitem" id="a4">Sobre a loja</Link>
             </nav>
             <CloseMenu onClick={closeMenu}><img src={closebtn}></img></CloseMenu>
         </MenuWrapper>

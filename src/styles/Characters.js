@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const CharactersPageWrapper = styled.div`
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    background-color: #000;
     display: flex;
     flex-direction: column;
     align-items: center;

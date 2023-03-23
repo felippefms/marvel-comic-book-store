@@ -25,10 +25,8 @@ export const MenuWrapper = styled.div`
         height: 100%;
     }
 
-    a{
-        font-family: 'Badaboom-BB', sans-serif;
-        display: flex;
-        font-size: 1.4em;
+    Link{
+        display: none;
         align-self: center;
         justify-content: center;
         justify-items: center;
@@ -45,6 +43,8 @@ export const MenuWrapper = styled.div`
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
+        font-family: 'Badaboom-BB', sans-serif;
+        font-size: 2em;
         
         :hover{
             color: blue;
