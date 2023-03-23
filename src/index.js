@@ -16,19 +16,19 @@ const root = createRoot(container);
 
 const router = createBrowserRouter([
   {
-    path: "marvel-comic-book-store/",
+    path: "/marvel-comic-book-store",
     element: <Home />
   },
   {
-    path: "/Hqs",
+    path: "/marvel-comic-book-store/Hqs",
     element: <Hqs />
   },
   {
-    path: "/Personagens",
+    path: "/marvel-comic-book-store/Personagens",
     element: <Characters />
   },
   {
-    path: "/Sobre",
+    path: "/marvel-comic-book-store/Sobre",
     element: <About />
   }
 ]);
