@@ -1,5 +1,4 @@
 import React from 'react';
-import GetApiInfo from '../api/requests';
 import { HomeWrapper } from '../styles/Home';
 import Header from '../components/Header';
 
