@@ -1,6 +1,6 @@
 {
   "name": "marvel-comic-book-store",
-  "version": "0.5.5",
+  "version": "0.6.0",
   "homepage": "https://felippefms.github.io/marvel-comic-book-store/",
   "private": true,
   "dependencies": {
