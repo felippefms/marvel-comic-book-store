@@ -12,6 +12,19 @@ const GlobalStyle = createGlobalStyle `
         font-family: 'Noto Sans', sans-serif;
     }
 
+    #root{
+        height: 100vh;
+    }
+
+    html, body{
+        height: 100%;
+        background-color: black;
+    }
+
+    .App{
+        height: 100%;
+    }
+
     Link{
         @font-face {
             font-family: 'Badaboom-BB';

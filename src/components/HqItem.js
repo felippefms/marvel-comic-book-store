@@ -1,8 +1,16 @@
-import { HqItem } from '../styles/HqItem';
+import React from 'react';
+import { HqItemSty, HqImg, HqName } from '../styles/HqItem';
 
-function HqItemSty(){
+function HqItem({ currentItems }){
     return(
-        <HqItem></HqItem>
+        <HqItemSty>
+        {currentItems.map(comic => (
+                <>
+                    <HqImg src={`${comic.thumbnail.path}.${comic.thumbnail.extension}`} alt={comic.title}></HqImg>
+                    <HqName key={comic.id}>{comic.title}</HqName>
+                </>
+                ))}
+        </HqItemSty>
     )
 }
 

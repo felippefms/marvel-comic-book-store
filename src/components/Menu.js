@@ -21,7 +21,7 @@ function Menu(){
       
     return(
         <>
-        <OpenMenu onClick={(openMenu)}><img src={menubtnimg}></img></OpenMenu>
+        <OpenMenu onClick={(openMenu)}><img src={menubtnimg} alt='Fechar Menu'></img></OpenMenu>
         <MenuWrapper isOpen={menuStatus} onClose={closeMenu}>
             <nav>
                 <Link to="/marvel-comic-book-store" onClick={closeMenu} className="menuitem">Pagina Inicial</Link>
@@ -29,7 +29,7 @@ function Menu(){
                 <Link to='/marvel-comic-book-store/Personagens' onClick={closeMenu} className="menuitem" id="a3">Personagens</Link>
                 <Link to='/marvel-comic-book-store/Sobre' onClick={closeMenu} className="menuitem" id="a4">Sobre a loja</Link>
             </nav>
-            <CloseMenu onClick={closeMenu}><img src={closebtn}></img></CloseMenu>
+            <CloseMenu onClick={closeMenu}><img src={closebtn} alt='Abrir Menu'></img></CloseMenu>
         </MenuWrapper>
         </>
     )

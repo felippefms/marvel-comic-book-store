@@ -1,18 +1,21 @@
 import styled from "styled-components";
 
-export const HqItem = styled.div`
-    width: min-content;
+export const HqItemSty = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 5px solid blue;
+`
+export const HqItem = styled.div`
 
-.HqImg{
+`
+
+export const HqImg = styled.img`
     width: 250px;
     height: 400px;
-}
+`
 
-.HqName{
-    color: #000
-}
+export const HqName = styled.p`
+    color: black;
+    background-color: red;
 `

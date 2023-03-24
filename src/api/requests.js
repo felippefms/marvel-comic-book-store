@@ -2,10 +2,19 @@ import React, { useState, useEffect } from 'react';
 import axios from "axios";
 import md5 from 'js-md5';
 
-import HqItem from '../components/HqItem';
+import HqItemSty from '../components/HqItem';
+import Pagination from '../components/Pagination';
 
 function GetHq(){
-    const [hqList, sethqList] = useState([]);
+
+    const [hqList, sethqList] = useState([]); //Obtencao da lista de resultados conseguidos pela API.
+    const [itemsPerPage, setItemsPerPage] = useState(6) //State para pegar determinada quantia de items para exibir por pagina.
+    const [currentPage, setCurrentPage] = useState(0) //Determina a pagina padrao de inicio.
+
+    const pages = Math.ceil(hqList.length / itemsPerPage) //divisão das paginas que serao necessarias para exibir, o "Math.ceil()" ira arredondar 1 pagina a mais caso precise.
+    const startIndex = currentPage * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const currentItems = hqList.slice(startIndex, endIndex) // items atuais de exibiçao.
 
     useEffect(() => {
       const publicKey = '75d2ced2b934937b2e5d3fa987983231';
@@ -13,7 +22,7 @@ function GetHq(){
       const timeStamp = new Date().getTime().toString();
       const hash = md5(timeStamp + privateKey + publicKey);
   
-      const apiUrl = `https://gateway.marvel.com/v1/public/comics?ts=${timeStamp}&apikey=${publicKey}&hash=${hash}&limit=10&orderBy=title`;
+      const apiUrl = `https://gateway.marvel.com/v1/public/comics?ts=${timeStamp}&apikey=${publicKey}&hash=${hash}&limit=20&orderBy=title`;
 
     axios.get(apiUrl)
     .then(response => {
@@ -27,12 +36,8 @@ function GetHq(){
     
     return (
           <>
-            {hqList.map(comic => (
-              <HqItem>
-                <img className='HqImg' src={`${comic.thumbnail.path}.${comic.thumbnail.extension}`} alt={comic.title} />
-                <p className='HqName' key={comic.id}>{comic.title}</p>
-              </HqItem>
-          ))}
+            <HqItemSty currentItems={currentItems}></HqItemSty>
+            <Pagination currentPage={currentPage} pages={pages} setCurrentPage={setCurrentPage} />
           </>
     )
 }

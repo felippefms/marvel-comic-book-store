@@ -1,7 +1,7 @@
 {
   "name": "marvel-comic-book-store",
   "version": "0.5.5",
-  "homepage": "https://felippefms.github.io/marvel-comic-book-store",
+  "homepage": "https://felippefms.github.io/marvel-comic-book-store/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
