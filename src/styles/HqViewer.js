@@ -11,7 +11,6 @@ export const HqViewerWrapper = styled.div`
 `
 export const HqInfoWrapper = styled.div`
     max-width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
