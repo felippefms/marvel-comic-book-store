@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/marvel-comic-book-store/static/js/main.4212e283.js",
+    "main.js": "/marvel-comic-book-store/static/js/main.21497b93.js",
     "static/media/menubgdimg.jpg": "/marvel-comic-book-store/static/media/menubgdimg.110da456e60a28707ad5.jpg",
     "static/media/menuoption4.png": "/marvel-comic-book-store/static/media/menuoption4.e5cbd81fe3b3d98f9526.png",
     "static/media/storelogo.png": "/marvel-comic-book-store/static/media/storelogo.069a0960cef55d87aff1.png",
@@ -11,9 +11,9 @@
     "static/media/menuoption3.png": "/marvel-comic-book-store/static/media/menuoption3.01e73334c97c93899e60.png",
     "static/media/badaboombb_reg-webfont.woff2": "/marvel-comic-book-store/static/media/badaboombb_reg-webfont.ba9303527cbf5c831af0.woff2",
     "index.html": "/marvel-comic-book-store/index.html",
-    "main.4212e283.js.map": "/marvel-comic-book-store/static/js/main.4212e283.js.map"
+    "main.21497b93.js.map": "/marvel-comic-book-store/static/js/main.21497b93.js.map"
   },
   "entrypoints": [
-    "static/js/main.4212e283.js"
+    "static/js/main.21497b93.js"
   ]
 }
