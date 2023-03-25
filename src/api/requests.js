@@ -5,16 +5,17 @@ import md5 from 'js-md5';
 import HqItemSty from '../components/HqItem';
 import Pagination from '../components/Pagination';
 
+
 function GetHq(){
 
     const [hqList, sethqList] = useState([]); //Obtencao da lista de resultados conseguidos pela API.
-    const [itemsPerPage, setItemsPerPage] = useState(6) //State para pegar determinada quantia de items para exibir por pagina.
+    const [itemsPerPage] = useState(6) //State para pegar determinada quantia de items para exibir por pagina.
     const [currentPage, setCurrentPage] = useState(0) //Determina a pagina padrao de inicio.
 
     const pages = Math.ceil(hqList.length / itemsPerPage) //divisão das paginas que serao necessarias para exibir, o "Math.ceil()" ira arredondar 1 pagina a mais caso precise.
     const startIndex = currentPage * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
-    const currentItems = hqList.slice(startIndex, endIndex) // items atuais de exibiçao.
+    const currentItems = hqList.slice(startIndex, endIndex) // quantidade de items atuais de exibiçao.
 
     useEffect(() => {
       const publicKey = '75d2ced2b934937b2e5d3fa987983231';
@@ -33,7 +34,6 @@ function GetHq(){
       console.log(error);
     });
     }, []);
-    
     return (
           <>
             <HqItemSty currentItems={currentItems}></HqItemSty>
