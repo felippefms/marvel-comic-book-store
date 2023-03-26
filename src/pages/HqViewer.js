@@ -8,6 +8,7 @@ function HqViewer(){
    const selectedHq = useSelector((state) => state.SelectedHq.nome);
    const selectedHqCover = useSelector((state) => state.SelectedHq.capa);
    const selectedDescription = useSelector((state) => state.SelectedHq.descricao);
+   
    return(
       <HqViewerWrapper>
          <Header></Header>

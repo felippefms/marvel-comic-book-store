@@ -6,6 +6,7 @@ import Hqs from './pages/Hqs';
 import Characters from './pages/Characters';
 import About from './pages/About';
 import HqViewer from './pages/HqViewer';
+import Cart from './pages/Cart';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
     path: "/marvel-comic-book-store/HqViwer/:id",
     element: <HqViewer />
   },
+  {
+    path: "/marvel-comic-book-store/Carrinho",
+    element: <Cart />
+  }
 ]);
 
 function App() {

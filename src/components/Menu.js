@@ -5,7 +5,6 @@ import { MenuWrapper, OpenMenu, CloseMenu } from '../styles/Menu';
 import menubtnimg from '../imgs/icons8-menu-60.png';
 import closebtn from '../imgs/closebtn.png';
 
-
 function Menu(){
     const [menuStatus, setMenuOpen] = useState(false);
 

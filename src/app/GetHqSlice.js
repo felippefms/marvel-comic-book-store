@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit'
 const initialState = {
   nome: '',
   capa: '',
-  descricao: ''
+  descricao: '',
 }
 
 export const GetHqSlice = createSlice({

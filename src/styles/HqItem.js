@@ -34,3 +34,18 @@ export const HqName = styled(Link)`
         color: blue;
     }
 `
+
+export const AddToCartBtn = styled.button`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e8fb5;
+    color: #fff;
+    border-radius: 5px;
+    width: 200px;
+
+    :Hover{
+        background-color: green;
+        cursor: pointer;
+    }
+`

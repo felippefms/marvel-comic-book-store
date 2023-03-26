@@ -3,13 +3,13 @@ import { HomeWrapper } from '../styles/Home';
 import Header from '../components/Header';
 import FooterWrapper from '../components/Footer';
 
-import storelogo from '../imgs/storelogo.png';
+import marvellogo from '../imgs/marvellogo.png';
 
 function Home(){
     return(
         <HomeWrapper>
             <Header></Header>
-            <img src={storelogo} alt='Marvel Online Store Brasil'></img>
+            <img src={marvellogo} alt='Marvel Online Store Brasil'></img>
             <FooterWrapper></FooterWrapper>
         </HomeWrapper>
     );

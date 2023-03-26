@@ -5,7 +5,6 @@ import md5 from 'js-md5';
 import HqItemSty from '../components/HqItem';
 import Pagination from '../components/Pagination';
 
-
 function GetHq(){
 
     const [hqList, sethqList] = useState([]); //Obtencao da lista de resultados conseguidos pela API.
