@@ -22,6 +22,8 @@ Já possuo um enorme carinho pelo projeto e com certeza ele me ajudou a melhorar
 
 De início me senti confortável ao utilizar React com Styled-Components (meus preferidos), acreditei que poderia melhorar mais ainda como dev e assim aconteceu.
 
+***
+
 # Desenvolvimento do projeto:
 
 Durante o desenrrolar do projeto houveram mudanças e decisões que contribuiram para o bom rumo que o projeto tomou, sempre mantive um código limpo e organizado para continuar evoluindo.
@@ -29,9 +31,13 @@ Os estilos feitos em css ou styled components foram simples mas feitos com muito
 Criei componentes de fácil leitura e utilizei o mínimo de bibliotecas possíveis para treinar meus conhecimentos em outras partes.
 Estou satisfeito com o projeto, mas gostaria de ter implementado até o lançamento (V1.0.0) os cupoms de desconto, porém serão adicionados em breve assim como a lista de personagens.
 
+***
+
 # Finalização e Testes Finais:
 
 Decidi realizar testes em algumas ações do site, como a adição de items ao carrinho de compras e a visualização de HQs.
+
+***
 
 # Agradecimentos:
 
