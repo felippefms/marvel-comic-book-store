@@ -13,7 +13,6 @@ export const PaginationWrapper = styled.div`
         font-size: 1.1em;
         margin:0 4px 25px 4px;
 
-
         :hover{
             background-color: white;
             color: red;

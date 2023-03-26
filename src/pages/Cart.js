@@ -23,7 +23,7 @@ function Cart(){
                                 <CartHqCover src={item.CartItemCapa} alt={item.CartItemnome} />
                                 <CartHqTitle>{item.CartItemnome}</CartHqTitle>
                                 <RemoveButton onClick={() => handleRemoveItem(item)}>
-                                    <img id='removebtnicon' src={removeicon}></img>
+                                    <img id='removebtnicon' src={removeicon} alt='remover'></img>
                                 </RemoveButton>
                             </CartItem>
                         ))}

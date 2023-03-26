@@ -8,7 +8,7 @@ import Pagination from '../components/Pagination';
 function GetHq(){
 
     const [hqList, sethqList] = useState([]); //Obtencao da lista de resultados conseguidos pela API.
-    const [itemsPerPage] = useState(6) //State para pegar determinada quantia de items para exibir por pagina.
+    const [itemsPerPage] = useState(24) //State para pegar determinada quantia de items para exibir por pagina.
     const [currentPage, setCurrentPage] = useState(0) //Determina a pagina padrao de inicio.
 
     const pages = Math.ceil(hqList.length / itemsPerPage) //divisão das paginas que serao necessarias para exibir, o "Math.ceil()" ira arredondar 1 pagina a mais caso precise.
@@ -22,7 +22,7 @@ function GetHq(){
       const timeStamp = new Date().getTime().toString();
       const hash = md5(timeStamp + privateKey + publicKey);
   
-      const apiUrl = `https://gateway.marvel.com/v1/public/comics?ts=${timeStamp}&apikey=${publicKey}&hash=${hash}&limit=20&orderBy=title`;
+      const apiUrl = `https://gateway.marvel.com/v1/public/comics?ts=${timeStamp}&apikey=${publicKey}&hash=${hash}&limit=24&orderBy=title`;
 
     axios.get(apiUrl)
     .then(response => {
@@ -34,10 +34,10 @@ function GetHq(){
     });
     }, []);
     return (
-          <>
+          <div>
             <HqItemSty currentItems={currentItems}></HqItemSty>
             <Pagination currentPage={currentPage} pages={pages} setCurrentPage={setCurrentPage}/>
-          </>
+          </div>
     )
 }
 

@@ -2,8 +2,7 @@ import styled from 'styled-components';
 
 export const HqViewerWrapper = styled.div`
     width: 100%;
-    height: 100%;
-    background-color: #000;
+    background: linear-gradient(123deg, #3AAAFF 0%, #056BE8 24%, #00204A 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,12 +10,13 @@ export const HqViewerWrapper = styled.div`
 `
 export const HqInfoWrapper = styled.div`
     max-width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     align-content: center;
     justify-content: center;
-    flex-wrap: wrap;
 `
 
 export const HqTitle = styled.p`

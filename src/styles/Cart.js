@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const CartPageWrapper = styled.div`
     width: 100%;
     height: 100%;
-    background-color: #000;
+    background: linear-gradient(123deg, #3AAAFF 0%, #056BE8 24%, #00204A 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,7 +13,7 @@ export const CartPageWrapper = styled.div`
 export const CartWreapper = styled.div`
     width: 100%;
     height: 100%;
-    background-color: #000;
+    background: linear-gradient(123deg, #3AAAFF 0%, #056BE8 24%, #00204A 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,14 +41,14 @@ export const CartHqCover = styled.img`
 `
 
 export const RemoveButton = styled.button`
+    background: transparent;
     height: 50%;
-    background-color: #000;
     border: none;
 
 #removebtnicon{
     height: 50px;
     margin: 0 10px 0 0;
-    background-color: #000;
+    background: transparent;
     border: none;
     cursor: pointer;
 }

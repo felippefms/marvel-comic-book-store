@@ -6,7 +6,7 @@ export const FooterWrapper = styled.div`
     align-items: center;
     align-content: center;
     width: 100%;
-    background-color: red;
+    background: transparent;
     cursor: default;
 
     p{

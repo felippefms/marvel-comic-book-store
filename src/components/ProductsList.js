@@ -5,7 +5,7 @@ import GetHq from '../api/requests';
 function ProductsList(){
     return(
         <ProductsListWrapper>
-            <GetHq></GetHq>
+                <GetHq></GetHq>
         </ProductsListWrapper>
     );
 }

@@ -10,9 +10,9 @@ function About(){
             <AboutBox>
                 <TextBox>
                     <p id='aboutText'>
-                    Olá !<br/> Bem vindo(a) a nova loja de HQs da Marvel no Brasil !!!<br/>
-                    Estamos felizes por estar com você, vá a página de quadrinhos para adicionar
-                    o que desejar ao carrinho de compras e aproveite para visualizar os detalhes de suas histórias favoritas !
+                    Ola !<br/> Bem vindo(a) a nova loja de HQs da Marvel no Brasil !!!<br/>
+                    Estamos felizes por estar com voce, va a pagina de quadrinhos para adicionar
+                    o que desejar ao carrinho de compras e aproveite para visualizar os detalhes de suas historias favoritas !
                     </p>
                 </TextBox>
             </AboutBox>

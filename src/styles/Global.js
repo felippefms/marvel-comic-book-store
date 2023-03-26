@@ -18,10 +18,12 @@ const GlobalStyle = createGlobalStyle `
 
     html, body{
         height: 100%;
+        background: linear-gradient(123deg, #3AAAFF 0%, #056BE8 24%, #00204A 100%);
     }
 
     .App{
         height: 100%;
+        background: linear-gradient(123deg, #3AAAFF 0%, #056BE8 24%, #00204A 100%);
     }
 
     Link{

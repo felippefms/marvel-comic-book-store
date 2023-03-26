@@ -2,12 +2,17 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const HqItemSty = styled.div`
+    height: 100%;
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 
     .HqItem{
+        max-width: 450px;
+        max-height: 100%;
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
