@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.js": "/marvel-comic-book-store/static/js/main.a8539b37.js",
+    "main.js": "/marvel-comic-book-store/static/js/main.5d1d75b8.js",
+    "static/media/homeboxbgd.png": "/marvel-comic-book-store/static/media/homeboxbgd.60db4ebc456424880270.png",
     "static/media/menubgdimg.jpg": "/marvel-comic-book-store/static/media/menubgdimg.110da456e60a28707ad5.jpg",
     "static/media/menuoption4.png": "/marvel-comic-book-store/static/media/menuoption4.e5cbd81fe3b3d98f9526.png",
-    "static/media/marvellogo.png": "/marvel-comic-book-store/static/media/marvellogo.069a0960cef55d87aff1.png",
     "static/media/menuoption1.png": "/marvel-comic-book-store/static/media/menuoption1.8dc3e0d89950a00d246b.png",
     "static/media/removeicon.png": "/marvel-comic-book-store/static/media/removeicon.37904168fb61e2c1e582.png",
     "static/media/menuoption2.png": "/marvel-comic-book-store/static/media/menuoption2.d00b377f4228d6d0d704.png",
+    "static/media/marvellogo.png": "/marvel-comic-book-store/static/media/marvellogo.90a249dded8dc5c7f3e7.png",
     "static/media/closebtn.png": "/marvel-comic-book-store/static/media/closebtn.03ebeb6c55ae60344da0.png",
     "static/media/storeicon.png": "/marvel-comic-book-store/static/media/storeicon.307e1fe9da589c14d943.png",
     "static/media/badaboombb_reg-webfont.woff": "/marvel-comic-book-store/static/media/badaboombb_reg-webfont.a33740e7eb2eb7006eed.woff",
     "static/media/menuoption3.png": "/marvel-comic-book-store/static/media/menuoption3.01e73334c97c93899e60.png",
     "static/media/badaboombb_reg-webfont.woff2": "/marvel-comic-book-store/static/media/badaboombb_reg-webfont.ba9303527cbf5c831af0.woff2",
     "index.html": "/marvel-comic-book-store/index.html",
-    "main.a8539b37.js.map": "/marvel-comic-book-store/static/js/main.a8539b37.js.map"
+    "main.5d1d75b8.js.map": "/marvel-comic-book-store/static/js/main.5d1d75b8.js.map"
   },
   "entrypoints": [
-    "static/js/main.a8539b37.js"
+    "static/js/main.5d1d75b8.js"
   ]
 }
