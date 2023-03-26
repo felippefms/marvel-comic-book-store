@@ -4,9 +4,9 @@
 
 A Marvel apresenta sua nova loja para você poder visualizar e comprar seus HQs de forma simples.
 
-![preview1](https://github.com/felippefms/galeria_animais/blob/main/src/imgs/preview1.jpg)
-![preview2](https://github.com/felippefms/galeria_animais/blob/main/src/imgs/preview2.jpg)
-![preview3](https://github.com/felippefms/galeria_animais/blob/main/src/imgs/preview3.jpg)
+![preview1]([https://github.com/felippefms/galeria_animais/blob/main/src/imgs/preview1.jpg](https://github.com/felippefms/marvel-comic-book-store/blob/master/src/imgs/preview1.jpg))
+![preview2]([https://github.com/felippefms/galeria_animais/blob/main/src/imgs/preview2.jpg](https://github.com/felippefms/marvel-comic-book-store/blob/master/src/imgs/preview2.jpg))
+![preview3]([https://github.com/felippefms/galeria_animais/blob/main/src/imgs/preview3.jpg](https://github.com/felippefms/marvel-comic-book-store/blob/master/src/imgs/preview3.jpg))
 
 ***
 
