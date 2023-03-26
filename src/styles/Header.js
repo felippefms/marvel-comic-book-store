@@ -19,10 +19,11 @@ export const StoreBtn = styled.button`
 
 :hover{
     border-radius: 5px 5px;
+        border: 2px solid white;
+        background-color: #000;
 }
 
  .storeiconsty{
     height: 100%;
-    border: 5px solid red;
  }
 `

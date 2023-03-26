@@ -6,7 +6,10 @@ function Pagination({ currentPage, pages, setCurrentPage }) {
     <PaginationWrapper>
       {Array.from(Array(pages), (item, index) => {
         return (
-          <button key={index} value={index} onClick={(event) => setCurrentPage(Number(event.target.value))} className={currentPage === index ? "active" : ""}>
+          <button key={index} value={index} onClick={(event) => {
+            setCurrentPage(Number(event.target.value));
+            window.scrollTo({ top: 0, behavior: 'smooth' });         //função para rolar a pagina para cima ao clicar
+            }}  className={currentPage === index ? "active" : "" }>
             {index + 1}
           </button>
         );

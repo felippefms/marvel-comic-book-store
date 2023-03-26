@@ -31,7 +31,7 @@ export const HqName = styled(Link)`
     font-size: 1.5em;
 
     :hover{
-        color: blue;
+        color: red;
     }
 `
 
@@ -39,13 +39,15 @@ export const AddToCartBtn = styled.button`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2e8fb5;
+    background-color: green;
     color: #fff;
     border-radius: 5px;
     width: 200px;
+    height: 50px;
+    margin: 10px 0 0 0;
 
     :Hover{
-        background-color: green;
+        background-color: #39a539;
         cursor: pointer;
     }
 `

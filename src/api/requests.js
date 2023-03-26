@@ -36,7 +36,7 @@ function GetHq(){
     return (
           <>
             <HqItemSty currentItems={currentItems}></HqItemSty>
-            <Pagination currentPage={currentPage} pages={pages} setCurrentPage={setCurrentPage} />
+            <Pagination currentPage={currentPage} pages={pages} setCurrentPage={setCurrentPage}/>
           </>
     )
 }

@@ -13,10 +13,9 @@ function HqItem({ currentItems }){
       dispatch(SelectHq({ nome: comic.title, capa: `${comic.thumbnail.path}.${comic.thumbnail.extension}`, descricao}));
     }
     
-    const AddToCartClick = (comic) => {
-      dispatch(AddToCart({ CartItemnome: comic.title, CartItemCapa: `${comic.thumbnail.path}.${comic.thumbnail.extension}`}));
-      alert('Produto Adicionado no carrinho !');
-      console.log(comic)
+    const AddToCartClick = (item) => {
+      dispatch(AddToCart({ CartItemnome: item.title, CartItemCapa: `${item.thumbnail.path}.${item.thumbnail.extension}`}));
+      alert('Produto adicionado no carrinho!');
     }
 
    return(

@@ -15,17 +15,20 @@ export const CartWreapper = styled.div`
     height: 100%;
     background-color: #000;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 `
 
 export const CartItem = styled.div`
-    width:80%;
+    width: 90%;
+    height: 160px;
     display: flex;
     align-items: center;
-    height: 100px;
+    justify-content: space-between;
     border: 2px solid blue;
     border-radius: 12px;
-    margin: 20px 0 0 0;
+    margin: 10px 0 10px 0;
 `
 
 export const CartHqTitle = styled.p`
@@ -35,4 +38,19 @@ export const CartHqTitle = styled.p`
 export const CartHqCover = styled.img`
     height: 95%;
     margin: 0 10px 0 10px;
+`
+
+export const RemoveButton = styled.button`
+    height: 50%;
+    background-color: #000;
+    border: none;
+
+#removebtnicon{
+    height: 50px;
+    margin: 0 10px 0 0;
+    background-color: #000;
+    border: none;
+    cursor: pointer;
+}
+
 `
